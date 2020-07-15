@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.w2a.testcase.LoginTest">
+      <class name="com.w2a.testcase.Users">
         <methods>
           <include name="setUp"/>
-          <include name="InvalidLogin"/>
+          <include name="ViewExistingUsers"/>
+          <include name="CreateUsers"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.w2a.testcase.LoginTest -->
+      </class> <!-- com.w2a.testcase.Users -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
