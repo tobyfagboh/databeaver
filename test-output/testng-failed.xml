@@ -6,7 +6,6 @@
       <class name="com.w2a.testcase.Users">
         <methods>
           <include name="setUp"/>
-          <include name="ViewExistingUsers"/>
           <include name="CreateUsers"/>
           <include name="tearDown"/>
         </methods>
